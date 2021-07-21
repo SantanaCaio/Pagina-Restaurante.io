@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="estilo/style.css" />
+      <link rel="stylesheet" href="estilo/sideMenu.css" />
+      <title>Mordene Reestauran</title>
+      <script
+         src="https://kit.fontawesome.com/eae5597eae.js"
+         crossorigin="anonymous"
+      ></script>
+   </head>
+   <body>
+      <!-- header  -->
+      <header>
+         <div class="side-menu">
+            <div class="icone store">
+               <i class="fas fa-store"></i>
+            </div>
+
+            <div class="icone home">
+               <button onclick="btnHome()"><i class="fas fa-home"></i></button>
+            </div>
+
+            <div class="icone porcento">
+               <i class="fas fa-percentage"></i>
+            </div>
+
+            <div class="icone email">
+               <i class="fas fa-chart-pie"></i>
+            </div>
+
+            <div class="icone sino">
+               <i class="fas fa-bell"></i>
+            </div>
+
+            <div class="icone config">
+               <i class="fas fa-cog"></i>
+            </div>
+
+            <div class="icone sair">
+               <i class="fas fa-sign-out-alt"></i>
+            </div>
+         </div>
+
+         <div class="headerMenuTitle">
+            <div class="container-grid header">
+               <div class="title">
+                  <h1>Jaegar Restaurante</h1>
+                  <h2>Terça-Feira, 20 jul 2021</h2>
+               </div>
+               <!-- title -->
+               <div class="search">
+                  <img src="img/lupa.png" alt="" srcset="" />
+                  <input
+                     type="text"
+                     placeholder="Search for food, coffe, etc..."
+                  />
+               </div>
+               <!-- search -->
+            </div>
+            <!-- container-grid title -->
+            <nav class="container-grid nav">
+               <div class="menu">
+                  <div class="menu-item pratosQuentes">
+                     <a href="">Pratos Quentes</a>
+                     <div class="line-pratosQuentes"></div>
+                  </div>
+
+                  <div class="menu-item">
+                     <a href="">Pratos Frios</a>
+                     <div class="line"></div>
+                  </div>
+
+                  <div class="menu-item">
+                     <a href="">Sopas</a>
+                     <div class="line"></div>
+                  </div>
+
+                  <div class="menu-item">
+                     <a href="">Grill</a>
+                     <div class="line"></div>
+                  </div>
+
+                  <div class="menu-item">
+                     <a href="">Entradas</a>
+                     <div class="line"></div>
+                  </div>
+
+                  <div class="menu-item">
+                     <a href="">Sobremesa</a>
+                     <div class="line"></div>
+                  </div>
+               </div>
+            </nav>
+            <div class="container-grid linha"></div>
+         </div>
+         <!-- final do headerMenuTitle  -->
+      </header>
+      <section class="container-grid conta-pratos">
+         <div class="subt">
+            <h2>Escolha os pratos</h2>
+            <div class="button-ondeComer">
+               <!-- falta arrumar este botão para funcionar direito -->
+               <label for="jantar em"><i class="fas fa-angle-down"></i></label>
+               <!-- falta arrumar este botão para funcionar direito -->
+               <select class="jantar" id="jantar em" name="jantar em">
+                  <option value="Restaurante">Restaurante</option>
+                  <option value="Delivery">Delivery</option>
+                  <option value="Viagem">Viagem</option>
+               </select>
+            </div>
+         </div>
+         <div class="container-pratos">
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ten">
+               <div class="prato">
+                  <img src="img/pratoo.png" alt="" srcset="" />
+               </div>
+               <div class="pratos-wap">
+                  <div class="nome-pratos">
+                     <h3>Nome Do Pratos bem descritivos</h3>
+                     <h4>R$ 99,60</h4>
+                     <h5>20 pratos disponiveis</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+
+   <script src="script/script.js"></script>
+</html>

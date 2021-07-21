@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* rgba(84, 60, 59, 1) fundo do botão menu */
+
+:root {
+   --bg-bluerDark: rgba(31, 29, 43, 1);
+   --bg-bluer: rgba(37, 40, 54, 1);
+   --destaque: rgba(234, 124, 105, 1);
+   --onTheBox: rgba(45, 48, 62, 1);
+}
+
+body {
+   background-color: var(--bg-bluer);
+   color: white;
+   font-family: 'Barlow', sans-serif;
+}
+
+.container-grid {
+   width: 88vw;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+.title h1 {
+   font-size: 28px;
+   font-weight: 500;
+}
+
+.title h2 {
+   font-size: 16px;
+   font-weight: 400;
+   color: rgba(224, 230, 232, 1);
+}
+
+body {
+   display: flex;
+   justify-content: center;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: fixed;
+   background-color: var(--bg-bluer);
+   z-index: 1;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.search {
+   background: var(--onTheBox);
+   padding: 15px;
+   border-radius: 10px;
+   width: 250px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.search input {
+   background: transparent;
+   border: none;
+   outline: none;
+   color: white;
+}
+
+.search img {
+   width: 15px;
+}
+
+/* menu nav */
+
+.menu {
+   margin: 20px 0 10px 0px;
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   color: var(--destaque);
+}
+
+.menu-item {
+   width: 100px;
+}
+
+.pratosQuentes a {
+   color: var(--destaque);
+}
+
+.line-pratosQuentes {
+   background-color: var(--destaque);
+   height: 3px;
+   width: 50%;
+   margin-top: 20px;
+}
+
+.line {
+   background-color: none;
+   height: 3px;
+   width: 50%;
+   margin-top: 20px;
+}
+
+.linha {
+   background: rgba(57, 60, 73, 1);
+   width: 88vw;
+   height: 1px;
+   margin-top: -12px;
+   z-index: -1;
+}
+
+.conta-pratos {
+   margin-top: 165px;
+}
+
+.container-grid h2 {
+   font-weight: 600;
+}
+
+.subt {
+   display: flex;
+   justify-content: space-between;
+}
+
+.subt select {
+   background: var(--bg-bluerDark);
+
+   border: none;
+   color: white;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.button-ondeComer {
+   background: var(--bg-bluerDark);
+   border: solid 1px rgba(57, 60, 73, 1);
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.container-pratos {
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 30px;
+}
+
+.pratos-wap {
+   background-color: var(--bg-bluerDark);
+   height: 226px;
+   border-radius: 15px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.nome-pratos {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 144px;
+   height: 100px;
+}
+
+.ten {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+
+.prato img {
+   position: relative;
+   width: 130px;
+   height: 130px;
+   margin-bottom: -95px;
+}
+
+.nome-pratos h3 {
+   font-weight: 500;
+   font-size: 10pt;
+}
+
+.nome-pratos h4 {
+   font-weight: 300;
+   font-size: 12pt;
+}
+
+.nome-pratos h5 {
+   font-weight: 200;
+   font-size: 5pt;
+}
